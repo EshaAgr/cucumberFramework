@@ -9,7 +9,7 @@ Given use should be on login page
 Scenario:TC_01_valid_login
 When user enter the valid credentials
 Then user should navigated to home page 
-And user can see the logout link 
+And user can see the logout link
 
 @esha
 Scenario: TC_02_Invalid_login
