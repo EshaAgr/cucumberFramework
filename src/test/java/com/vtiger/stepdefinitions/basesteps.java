@@ -52,6 +52,9 @@ public class basesteps {
 		System.out.println(dt);
 		//System.exit(0);
 		readProperties();
+		System.out.println("Jenkins browser"+System.getProperty("Browser"));
+		System.out.println("Jenkins Url"+System.getProperty("URL"));
+		System.out.println("Jenkins Env"+System.getProperty("Environment"));
 		if(prop.getProperty("Browser").equals("firefox"))
 		{
 			driver = new FirefoxDriver();
